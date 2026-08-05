@@ -1,20 +1,25 @@
-body{
-    background-color: #076407;
-    color:#daa520;
+body {
+    background-color: #169c1c;
+    color:222222;
+    font-family: Arial, sans-serif;
 }
+
 header {
-    background-color:#169c1c;
-    color:#daa520;
+    background-color: #169c1c;
+    color: #daa520;
+    text-align: center;
+    padding: 30px;
 }
-main{
-    background-color:#008000 ;
-    color :black;
+
+h1 {
+    font-size: 36px;
 }
-section{
-    background-color:#14990357 ;
-    color:#1bd10371
+
+h2 {
+    color: #076407;
 }
-footer{
-    background-color: rgb(250, 250, 250);
-    color:#023302;
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
 }
