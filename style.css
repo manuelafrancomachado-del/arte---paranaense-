@@ -2,11 +2,12 @@ body {
     background-color: #1a72d6;
     color:222222;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 header {
     background-color: #17f0cc;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 30px;
 }
@@ -16,20 +17,32 @@ h1 {
 }
 
 h2 {
-    color: #076407;
+    color: #06ff06;
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
 }
+nav {
+    margin-top: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: #17f0cc;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #06ff06;
+}
 main  {
 
     width:80%;
-    margin:auto; background-color: black;
-    margin:20px 0;
-    padding: 20px;
-    border-radius: 12px
+    margin: auto; 
 }
 section{
     background-color: black;
@@ -39,9 +52,9 @@ section{
 }
 img{
    width:100%
-    max-width:600px;
-    display:block;
-    margin:auto;
+    max-width: 600px;
+    display: block;
+    margin: auto;
     border-radius: 12px;  
 }
 figcaption{
@@ -49,4 +62,12 @@ figcaption{
     font-size:14px;
     color:#555555;
     margin-top: 8px;
+}
+
+card {
+    background-color: aquamarine;
+    padding: 15px;
+    margin:15px 0;
+    border-left: 6px solid #555555;
+    border-radius:10px
 }
