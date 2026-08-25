@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #680c0c;
-    color: #ffffffe5;
+    background-color: #8f770c;
+    color: #000000e5;
     text-align: center;
     padding: 30px;
 }
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    color: #06ff06;
+    color: #8d7908;
 }
 
 p {
@@ -30,7 +30,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     background-color: #520101;
     padding: 10px 15px;
@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #000000;
+    background-color: hsl(0, 0%, 100%);
 }
 
 main {
