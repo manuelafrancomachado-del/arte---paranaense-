@@ -77,25 +77,34 @@ figcaption {
     border-left: 6px solid #6b2d5c;
     border-radius: 10px;
 }
+
 .card h3 {
     margin-top: 0;
 }
-footer{
+
+footer {
     background-color: #222222;
-    color :white;
+    color: white;
     text-align: center;
-    padding:20px;
+    padding: 20px;
     margin-top: 30px;
 }
-button{
+
+button {
     background-color: #21aed1;
-    color:white;
-    border:none;
+    color: white;
+    border: none;
     padding: 10px 15px;
     border-radius: 8px;
-    cursor:pointer;
+    cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: #65e0ff;
 }
 
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}

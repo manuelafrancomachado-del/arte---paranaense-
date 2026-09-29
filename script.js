@@ -1,14 +1,16 @@
-const botoesCurtir=document.querySelectorAll(".curtir");
-botoesCurtir.forEach(function(botoesCurtir);{
-    let curtir=false;
-    botaoCurtir.addEventListener("click,curtir");
+const botoesCurtir = document.querySelectorAll(".curtir");
+botoesCurtir.forEach(function(botaoCurtir){
+    let curtiu = false;
+    botaoCurtir.addEventListener("click",curtir);
     function curtir(){
-        const contador=botaoCurtir.querySelector("span");
-        if(curtir===false){
+        const contador = botaoCurtir.querySelector("span");
+        if(curtiu === false){
             contador.textContent++;
-            curtiu=true;}
-            else{ con.textContent--;
-                curtir=false;
+            curtiu = true;
+        }
+            else { 
+                contador.textContent--;
+                curtiu = false;
             }
     }
 });
